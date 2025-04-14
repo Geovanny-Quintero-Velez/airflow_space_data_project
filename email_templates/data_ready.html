@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    .container {
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+    }
+    .header {
+      font-size: 18px;
+      font-weight: bold;
+      color: #005288;
+    }
+    .content {
+      margin-top: 15px;
+      line-height: 1.6;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Airflow Notification: SpaceX and NASA Data Ready</div>
+    <div class="content">
+      <p>Dear Team,</p>
+      <p>This is an automated notification from <strong>Apache Airflow</strong>.</p>
+      <p>Both <strong>SpaceX</strong> and <strong>NASA</strong> data pipelines have successfully completed. The information is now available and ready for further steps.</p>
+      <p>Please proceed with the next steps in your workflow as planned.</p>
+      <p>For any questions or assistance, feel free to reach out to the data engineering team.</p>
+    </div>
+    <div class="footer">
+      Sent automatically by Airflow on {{ ds }}.
+    </div>
+  </div>
+</body>
+</html>
