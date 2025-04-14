@@ -7,7 +7,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 
 ## DAG orchestation
 
-![DAG orchestation](doc_images\Airflow_DAG_orchestation.jpg)
+![DAG orchestation](doc_images/Airflow_DAG_orchestation.jpg)
 
 ## Tasks orchestation
 
@@ -19,7 +19,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Succes notification: Notify about operation success if the permission creator works correctly
 - Error notification: Notify about operation failure if the permission creator does not work correctly
 
-![Issuer](doc_images\NASA_issuer_graph.png)
+![Issuer](doc_images/NASA_issuer_graph.png)
 
 ### NASA permission checker:
 
@@ -30,7 +30,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Succes notification: Notify about operation success if the permission check works correctly
 - Error notification: Notify about operation failure if the permission check does not work correctly
 
-![NASA checker](doc_images\permission_checker.png)
+![NASA checker](doc_images/permission_checker.png)
 
 ### NASA data consumer:
 
@@ -41,7 +41,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Succes notification: Notify about operation success if the NASA data ingestion works correctly
 - Error notification: Notify about operation failure if the NASA data ingestion does not work correctly
 
-![NASA consumer](doc_images\NASA_data_consumer.png)
+![NASA consumer](doc_images/NASA_data_consumer.png)
 
 ### SpaceX API consumer:
 
@@ -52,7 +52,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Succes notification: Notify about operation success if the API consumption works correctly
 - Error notification: Notify about operation failure if the permission creator does not work correctly
 
-![SpaceX consumer](doc_images\SpaceX_API_consumer.png)
+![SpaceX consumer](doc_images/SpaceX_API_consumer.png)
 
 ### data completeness checker:
 
@@ -62,7 +62,7 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Check SpaceX data is present
 - Notify that both data files are present
 
-![Completness checker](doc_images\data_completeness_checker.png)
+![Completness checker](doc_images/data_completeness_checker.png)
 
 ### Notification sender:
 
@@ -73,11 +73,11 @@ It this project is explored the creation of DAGs, making them communicate throug
 - Succes notification: Notify about operation success if the email notification sender works correctly
 - Error notification: Notify about operation failure if the email notification sender does not work correctly
 
-![Notification sender](doc_images\email_sender.png)
+![Notification sender](doc_images/email_sender.png)
 
 ## Email notification sent
 
-![Email sent](doc_images\email_notification.png)
+![Email sent](doc_images/email_notification.png)
 
 # Running the project
 
@@ -133,6 +133,6 @@ Visit [http://localhost:8080/home](http://localhost:8080/home). Insert the crede
 
 Go to **Admin** on the navbar and select **connections**. Set a connection **fs_default** with type **File (path)** and press save:
 
-![Issuer](doc_images\connection.png)
+![Issuer](doc_images/connection.png)
 
 Now you are ready!
